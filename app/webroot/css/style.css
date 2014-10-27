@@ -1,0 +1,127 @@
+/*
+Theme Name: Carell
+Description: Premium Multifunctional HTML Template
+Author: Predrag Stojanovic - @pebas
+Author URI: http://themeforest.net/user/pebas/
+Version: 1.0
+*/
+
+/* ============================================================================== 
+=================================================================================
+CARELL CSS */
+
+/**** Google Font ****/
+ @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic);
+
+/* Layout */
+ @import url('layout.css');
+
+/* Rev Slider */
+ @import url('settings.css');
+ 
+.search_bar{ 
+ width: 100%;
+height: 150px;
+position: absolute;
+margin-top: -22%;
+z-index: 9999;
+}
+.search_box{
+	width:60%;
+	margin:auto;
+	/*background:#3FF;*/
+	height:120px;
+	padding-top:43px;
+	}
+
+.search_input{
+	width:78%;
+	height:70px;
+	font-size: 20px;
+	color:#03F;
+    background: rgba(255, 255, 255, 0.5); 
+	border:none;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border:1px solid #AFB7CF;
+	padding-left:10px;
+	}
+.search_sub_btn{
+	width:20%;
+	height:70px;
+	font-size:18px;
+	color:#FFF;
+	border:none;
+	background:#ff7800;
+	
+	}
+ 
+ 
+ 
+ .p_list_heading{
+	 color:#03F;
+	 text-align:left;
+	 font-size:16px;
+	 font-weight:700;
+	 }
+.form_opt{
+	width:100%;
+	} 
+.form_opt select{
+	width:100px;
+	}
+.opt_line{
+	width:100px;
+	margin-right:50px;
+	float:left;
+	font-weight:bold;
+	color:#000;
+	}
+.opt_line_select{
+	width:100px;
+	height:20px;
+	border-radius:3px;
+	border:none;
+	border:1px solid #999;
+	}
+#btn_submit{
+margin-top:30px; 
+width:113px; 
+height:38px;
+border:none;
+background:#EC5800;
+color:#FFF;
+cursor:pointer;
+	}
+	
+
+	
+	
+	
+	
+	
+/*.btn.create-listing-action {
+clear: right;
+float: right;
+margin-top: -28px;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+
+.btn-secondary {
+background-color: #066ff8;
+background-image: -ms-linear-gradient(top,#066ff8,#066ff8);
+background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#066ff8),color-stop(100%,#066ff8));
+background: -webkit-linear-gradient(top,#066ff8,#066ff8);
+background: -moz-linear-gradient(top,#066ff8,#066ff8);
+background: -o-linear-gradient(top,#066ff8,#066ff8);
+background: linear-gradient(top,#066ff8,#066ff8);
+-webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.2),0 0 7px rgba(0,0,0,0.2);
+-moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.2),0 0 7px rgba(0,0,0,0.2);
+box-shadow: inset 1px 1px 0 rgba(255,255,255,0.2),0 0 7px rgba(0,0,0,0.2);
+background-position: 0 15px;
+color: white;
+padding:7px;
+text-shadow: 0 -1px 0 #717a13;
+border-color: #999999;
+}*/
